@@ -83,6 +83,7 @@ span {
 }
 .inner-div {
     padding: 100px;
+    
 }
 .text-frame2 {
     color: white;
@@ -90,21 +91,35 @@ span {
     text-align: center;
 }
 #mobile {
-    position: relative;
+    position: absolute;
     z-index: 1;
-    left: 5%;
-    bottom: 280px;
+    left: 169px;
+    bottom: -1057px;
 }
 .container {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
     align-items: space-between;
     width: 100%;
     height: 100%;
-    padding 10%;
+    position: relative;
+    z-index: 0;
+    bottom: 10%;
 
 }
 .box {
     color: red;
+    width: 29%;
+    margin-top: 150px;
+    
+}
+.up-p {
+    color: white;
+    margin-top: 20px;
+    font-size: 28px;
+}
+.down-p {
+    color: grey;
+    margin-top: 20px;
+    font-size: 28x;
 }
